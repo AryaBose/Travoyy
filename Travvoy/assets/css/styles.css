@@ -10,7 +10,7 @@
   --title-color: hsl(0, 0%, 95%);
   --text-color: hsl(0, 0%, 70%);
   --text-color-light: hsl(0, 0%, 60%);
-  --body-color: hsl(0, 0%, 0%);
+  --body-color: hsl(133, 18%, 19%);
   --container-color: hsl(0, 0%, 8%);
 
   /*========== Font and typography ==========*/
@@ -194,9 +194,9 @@ img {
   transition: width .3s;
 }
 
-.nav__link:hover::after{
+/* .nav__link:hover::after{
   width: 70%;
-}
+} */
 
 .nav__close{
   position: absolute;
@@ -224,9 +224,9 @@ img {
 }
 
 /* Active link */
-.active-link::after{
+/* .active-link::after{
   width: 70%;
-}
+} */
 
 /*=============== HOME ===============*/
 .home{
@@ -752,7 +752,7 @@ img {
   }
 
   .section{
-    padding-block: 7rem 2rem;
+    padding-block: 10rem 2rem;
   }
 
   .nav{
@@ -874,12 +874,12 @@ img {
 
 .carousel {
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
   position: relative;
 }
 
 .carousel > ul {
-  margin: 0;
+  margin: -50px;
   padding: 0;
   list-style: none;
 }
